@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #70C1EC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    font-weight: 500;
+}
+
+#banner {
+    border-radius: 0;
+    border: 0;
+}
+
+#banner .bannerimg {
+    max-height: 450px;
+    border-radius: 0;
+}
+
+#banner #mainTitle {
+    height: 80%;
+}
+
+.projectBox {
+    height: 375px;
+    width: 800px;
+    text-align: center;
+    margin: 35px 20px;
+    padding: 20px;
+    background-image: url(imgs/cardBackground.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.projectBox:hover {
+    border: 2px solid white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    cursor: pointer;
+}
+
+.navbar.scrolled {
+    background-color: #70C1EC;
+    transition: background 0.5s;
+}
+
+@media(max-width: 1500px) {
+    .projectText {
+        font-size: 1.05em;
+    }
+}
+
+@media(max-width: 1200px) {
+    .projectText {
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width: 650px) {
+    .projectText {
+        font-size: 1.05em;
+    }
+    #mainTitle {
+        font-size: 2.5em
+    }
+}
+
+
+
+
+
