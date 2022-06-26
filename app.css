@@ -11,7 +11,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#mainNavbar .navbar-brand {
+.navbar-brand {
     font-weight: 500;
 }
 
@@ -21,12 +21,12 @@ body {
 }
 
 .bannerimg {
-    height: 450px;
+    height: 400px;
     width: auto;
     border-radius: 0;
 }
 
-#banner #mainTitle {
+#mainTitle {
     height: 80%;
     font-size: 4em;
 }
@@ -37,11 +37,17 @@ body {
     transform: translateY(-100px);
 }
 
+.projectHeading{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .projectBox {
-    height: 375px;
+    height: 350px;
     width: 800px;
     text-align: center;
-    margin: 60px 20px;
+    font-weight: 300;
+    margin: 10px 20px;
     padding: 20px;
     background-color: #016074;
     background-repeat: none;
@@ -50,12 +56,14 @@ body {
     color: white;
     border-radius: 5px;
     box-sizing: border-box;
+    transition: transform 0.3s ease-out;
 }
 
 .projectBox:hover {
     border: 2px solid white;
     box-shadow: 0 0.5em 0.5em -0.4em white;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .navbar.scrolled {
@@ -73,6 +81,13 @@ body {
     .projectText {
         font-size: 1.2em;
     }
+    .projectHeading {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .projectBox{
+        height: 315px;
+    }
 }
 
 @media(max-width: 650px) {
@@ -84,6 +99,7 @@ body {
     }
     .projectBox {
         height: 300px;
+        margin-bottom: 10px;
     }
     .bannerimg {
         height: 350px;
@@ -93,8 +109,9 @@ body {
         font-size: 1.7em;
         transform: translateY(-75px);
     }
-    .projectBox {
-        margin: 35px 20px;
+    .projectHeading {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
