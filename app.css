@@ -64,6 +64,8 @@ body {
     box-shadow: 0 0.5em 0.5em -0.4em white;
     cursor: pointer;
     transform: scale(1.05);
+    text-decoration: none;
+    color: white;
 }
 
 .navbar.scrolled {
